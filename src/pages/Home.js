@@ -1,9 +1,13 @@
 import React from "react";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div>
-      <h1>test 4</h1>
+      <Navigation />
+      <div id="full-size-section"></div>
+      <Footer />
     </div>
   );
 };

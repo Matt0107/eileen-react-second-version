@@ -9,30 +9,33 @@ const Footer = () => {
           <a
             href="https://open.spotify.com/artist/6BEnmlx54iiGEDYXS7jcN4"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="social-icon"
-              src="./assets/spotify-vert.svg"
+              src="/assets/spotify.svg"
               alt="Spotify icon"
             />
           </a>
           <a
             href="https://music.apple.com/gd/artist/eileen-baum/1497923452"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="social-icon"
-              src="./assets/apple-color.svg"
+              src="/assets/apple.svg"
               alt="Apple icon"
             />
           </a>
           <a
             href="https://www.youtube.com/channel/UCsezrcwS3afG6R4kYCGEiqg"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="social-icon"
-              src="./assets/youtube-rouge.svg"
+              src="/assets/youtube.svg"
               alt="Youtube icon"
             />
           </a>

@@ -3,7 +3,9 @@ import React from "react";
 const Privacy = () => {
   return (
     <div>
-      <h1>test 7</h1>
+      <section id="privacy">
+        <h1>coming</h1>
+      </section>
     </div>
   );
 };

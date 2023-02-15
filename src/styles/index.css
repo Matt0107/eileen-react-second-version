@@ -269,3 +269,63 @@ body {
 #privacy {
     margin: 3%;
 }
+
+/* Media queries */
+@media only screen and (min-width: 390px) {
+    .title {
+        font-size: 175%;
+    }
+
+    .navbar a {
+        font-size: 125%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .title {
+        font-size: 200%;
+    }
+
+    .navbar a {
+        font-size: 150%;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* Show the burger menu on devices with a screen width smaller than 1024px */
+    .burger-menu {
+        display: block;
+    }
+
+    /* .title {
+        font-size: 3rem;
+    } */
+
+    /* Hide the links on devices with a screen width smaller than 1024px */
+    .navbar a {
+        display: none;
+        /* font-size: 2rem; */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .burger-menu {
+        visibility: hidden;
+    }
+
+    .title {
+        font-size: 225%;
+    }
+
+    .navbar a {
+        font-size: 175%;
+    }
+}

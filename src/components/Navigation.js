@@ -1,57 +1,100 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const Navigation = () => {
+  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
+  const handleBurgerMenuClick = () => {
+    setIsBurgerMenuOpen(!isBurgerMenuOpen);
+  };
+  const handleBurgerMenu = () => {
+    document.body.classList.toggle("burger-menu-open");
+  };
+
+  const handleTitleClick = () => {
+    window.location.href = "/";
+  };
+
+  const handleCloseButtonClick = () => {
+    setIsBurgerMenuOpen(false);
+    document.body.classList.remove("burger-menu-open");
+  };
+
+  const handleDocumentClick = (event) => {
+    if (
+      !event.target.closest(".burger-menu") &&
+      !event.target.closest(".burger-menu-content")
+    ) {
+      setIsBurgerMenuOpen(false);
+      document.body.classList.remove("burger-menu-open");
+    }
+  };
+
+  React.useEffect(() => {
+    const burgerMenu = document.querySelector(".burger-menu");
+    const burgerMenuContent = document.querySelector(".burger-menu-content");
+    const closeButton = document.querySelector(".close-button");
+    const title = document.querySelector(".title");
+    burgerMenu.addEventListener("click", handleBurgerMenu);
+    closeButton.addEventListener("click", handleCloseButtonClick);
+    document.addEventListener("click", handleDocumentClick);
+    title.addEventListener("click", handleTitleClick);
+    return () => {
+      burgerMenu.removeEventListener("click", handleBurgerMenu);
+      closeButton.removeEventListener("click", handleCloseButtonClick);
+      document.removeEventListener("click", handleDocumentClick);
+      title.removeEventListener("click", handleTitleClick);
+    };
+  }, []);
+
+  const handleNavLinkClick = () => {
+    setIsBurgerMenuOpen(false);
+    document.body.classList.remove("burger-menu-open");
+  };
+
   return (
     <div>
-      <div className="navbar">
-        <div className="title">Eileen Baum</div>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/media">Media</NavLink>
-        <NavLink to="/calendar">Calendar</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <div className="burger-menu">
+      <div className={`navbar ${isBurgerMenuOpen ? "burger-menu-open" : ""}`}>
+        <div className="title" onClick={() => (window.location.href = "/")}>
+          Eileen Baum
+        </div>
+        <NavLink to="/about" onClick={handleNavLinkClick}>
+          About
+        </NavLink>
+        <NavLink to="/media" onClick={handleNavLinkClick}>
+          Media
+        </NavLink>
+        <NavLink to="/calendar" onClick={handleNavLinkClick}>
+          Calendar
+        </NavLink>
+        <NavLink to="/contact" onClick={handleNavLinkClick}>
+          Contact
+        </NavLink>
+        <div className="burger-menu" onClick={handleBurgerMenuClick}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
       <div className="burger-menu-content">
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/media">Media</NavLink>
-        <NavLink to="/calendar">Calendar</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <button className="close-button">
+        <NavLink to="/about" onClick={handleNavLinkClick}>
+          About
+        </NavLink>
+        <NavLink to="/media" onClick={handleNavLinkClick}>
+          Media
+        </NavLink>
+        <NavLink to="/calendar" onClick={handleNavLinkClick}>
+          Calendar
+        </NavLink>
+        <NavLink to="/contact" onClick={handleNavLinkClick}>
+          Contact
+        </NavLink>
+        <button className="close-button" onClick={handleCloseButtonClick}>
           <span></span>
         </button>
       </div>
     </div>
   );
 };
-// const burgerMenu = document.querySelector(".burger-menu");
-// const burgerMenuContent = document.querySelector(".burger-menu-content");
-// const closeButton = document.querySelector(".close-button");
-
-// burgerMenu.addEventListener("click", function () {
-//   document.body.classList.toggle("burger-menu-open");
-// });
-
-// closeButton.addEventListener("click", function () {
-//   document.body.classList.remove("burger-menu-open");
-// });
-
-// document.addEventListener("click", function (event) {
-//   if (
-//     !event.target.closest(".burger-menu") &&
-//     !event.target.closest(".burger-menu-content")
-//   ) {
-//     document.body.classList.remove("burger-menu-open");
-//   }
-// });
-// const title = document.querySelector(".title");
-
-// title.addEventListener("click", function () {
-//   window.location.href = "/";
-// });
 
 export default Navigation;

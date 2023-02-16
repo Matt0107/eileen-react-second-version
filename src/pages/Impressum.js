@@ -1,8 +1,11 @@
 import React from "react";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const Impressum = () => {
   return (
     <div>
+      <Navigation />
       <section id="impressum">
         <h1>IMPRESSUM</h1>
         <h2>Angaben gemäß § 5 TMG:</h2>
@@ -54,9 +57,7 @@ const Impressum = () => {
         <h2>
           Information provided according to Sec. 5 German Telemedia Act (TMG):
         </h2>
-        <p>
-          Alice Sara Ott Deutsche Grammophon GmbH Stralauer Allee 1 10245 Berlin
-        </p>
+        <p>Eileen Baum</p>
         <h2>Dispute resolution</h2>
         <p>
           We do not take part in online dispute resolutions at consumer
@@ -102,6 +103,7 @@ const Impressum = () => {
           immediately.
         </p>
       </section>
+      <Footer />
     </div>
   );
 };

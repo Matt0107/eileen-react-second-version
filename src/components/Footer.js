@@ -13,7 +13,7 @@ const Footer = () => {
           >
             <img
               className="social-icon"
-              src="/assets/spotify.svg"
+              src="/assets/spotify-black.svg"
               alt="Spotify icon"
             />
           </a>
@@ -24,7 +24,7 @@ const Footer = () => {
           >
             <img
               className="social-icon"
-              src="/assets/apple.svg"
+              src="/assets/apple-black.svg"
               alt="Apple icon"
             />
           </a>
@@ -35,7 +35,7 @@ const Footer = () => {
           >
             <img
               className="social-icon"
-              src="/assets/youtube.svg"
+              src="/assets/youtube-black.svg"
               alt="Youtube icon"
             />
           </a>
@@ -47,7 +47,7 @@ const Footer = () => {
           <NavLink to="/privacy" className="legal">
             Privacy Policy
           </NavLink>
-          <p>Website by Matt - Afrotennis</p>
+          <p className="legal">Website by Matt - Afrotennis</p>
         </div>
       </footer>
     </div>

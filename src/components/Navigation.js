@@ -32,7 +32,6 @@ const Navigation = () => {
 
   React.useEffect(() => {
     const burgerMenu = document.querySelector(".burger-menu");
-    const burgerMenuContent = document.querySelector(".burger-menu-content");
     const closeButton = document.querySelector(".close-button");
     const title = document.querySelector(".title");
     burgerMenu.addEventListener("click", handleBurgerMenu);

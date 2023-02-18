@@ -8,33 +8,33 @@ const Calendar = () => {
       <Navigation />
       <div id="calendar-section">
         <div class="event">
-          <p>5 February 2022</p>
           <p>Sala Nietzsche</p>
-          <p>Lisbon, Portugal</p>
+          <p className="event-sub">5 February 2022</p>
+          <p className="event-sub">Lisbon, Portugal</p>
         </div>
 
         <div class="event">
-          <p>6 March 2022</p>
           <p>Jagdzeugmagazin Schloss Grunewald</p>
-          <p>Berlin, Germany</p>
+          <p className="event-sub">6 March 2022</p>
+          <p className="event-sub">Berlin, Germany</p>
         </div>
 
         <div class="event">
-          <p>5 May 2022</p>
           <p>Gemeindehaus Amrum</p>
-          <p>Berlin, Germany</p>
+          <p className="event-sub">5 May 2022</p>
+          <p className="event-sub">Berlin, Germany</p>
         </div>
 
         <div class="event">
-          <p>18 July 2022</p>
           <p>Midsummer Vilnius</p>
-          <p>Vilnius, Lithuania</p>
+          <p className="event-sub">18 July 2022</p>
+          <p className="event-sub">Vilnius, Lithuania</p>
         </div>
 
-        <div class="event">
-          <p>14 & 22 October 2022</p>
+        {/* <div class="event">
           <p>MS Artania</p>
-        </div>
+          <p>14 & 22 October 2022</p>
+        </div> */}
       </div>
       <Footer />
     </div>

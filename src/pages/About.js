@@ -7,21 +7,18 @@ const About = () => {
     <div>
       <Navigation />
       <div id="about-section">
-        <div class="picture-section">
+        <div className="picture-section">
           <img src="./assets/face2.jpg" alt="eileen-bio" />
         </div>
-        <div class="biography-section">
-          <div className="biographie-section-div-title">
-            Die in Berlin geborene Gitarristin, Eileen Baum
-          </div>
+        <div className="biography-section">
           <div className="biographie-section-div">
-            Eileen Baum erhielt ihren ersten Gitarrenunterricht im Alter von 10
-            Jahren. 3 Jahre später lernte sie Prof. Rainer Feldmann kennen, bei
-            dem sie von 2009 bis 2014 an der Universität der Künste in Berlin
-            Gitarre studierte. 2016 schloss sie ihr Studium mit dem
-            Konzertexamen ab. Weitere wichtige Impulse erhielt sie in
-            Meisterkursen u. a bei David Russell, Álvaro Pierri und Aniello
-            Desiderio. Eileen Baum hat an zahlreichen nationalen und
+            Die in Berlin geborene Gitarristin, Eileen Baum erhielt ihren ersten
+            Gitarrenunterricht im Alter von 10 Jahren. 3 Jahre später lernte sie
+            Prof. Rainer Feldmann kennen, bei dem sie von 2009 bis 2014 an der
+            Universität der Künste in Berlin Gitarre studierte. 2016 schloss sie
+            ihr Studium mit dem Konzertexamen ab. Weitere wichtige Impulse
+            erhielt sie in Meisterkursen u. a bei David Russell, Álvaro Pierri
+            und Aniello Desiderio. Eileen Baum hat an zahlreichen nationalen und
             internationalen Wettbewerben teilgenommen. So erhielt sie 2005 den
             1. Preis bei "Jugend musiziert" in der Kategorie Gitarrenduo.
           </div>

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Space Grotesk';
-    src: local("Space Grotesk"), url("../fonts/Grotesk/SpaceGrotesk-Regular.ttf") format("truetype");
+    src: local("Space Grotesk"), url("../fonts/Grotesk/SpaceGrotesk-Light.ttf");
 }
 
 body {
     margin: 0;
-    font-family: 'Space Grotesk';
+    font-family: 'Space grotesk';
 }
 
 /* Sticky navigation bar */
@@ -211,6 +211,11 @@ body {
     justify-content: center;
 }
 
+.contact-icons:nth-child(2) {
+    margin-left: 4%;
+    margin-bottom: 8%;
+}
+
 .contact-icons p {
     font-size: 120%;
 }
@@ -297,8 +302,8 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 455px) {
-    .event:nth-child(2) {
-        line-height: 110%;
+    .event-2-p {
+        line-height: 100%;
     }
 }
 

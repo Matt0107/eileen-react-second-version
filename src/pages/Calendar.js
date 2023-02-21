@@ -14,7 +14,7 @@ const Calendar = () => {
         </div>
 
         <div class="event">
-          <p>Jagdzeugmagazin Schloss Grunewald</p>
+          <p class="event-2-p">Jagdzeugmagazin Schloss Grunewald</p>
           <p className="event-sub">6 March 2022</p>
           <p className="event-sub">Berlin, Germany</p>
         </div>

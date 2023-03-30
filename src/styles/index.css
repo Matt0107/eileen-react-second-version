@@ -290,6 +290,17 @@ body {
     margin: 3%;
 }
 
+/* Errorpage */
+#error {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.guitar-error {
+    width: 40%;
+}
+
 /* Media queries */
 @media only screen and (min-width: 320px) {
     .title {

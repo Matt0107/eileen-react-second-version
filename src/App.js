@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Impressum from "./pages/Impressum";
 import Media from "./pages/Media";
 import Privacy from "./pages/Privacy";
-// import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path="/Impressum" element={<Impressum />} />
         <Route path="/Media" element={<Media />} />
         <Route path="/Privacy" element={<Privacy />} />
-        {/* <Route path="*" element={<ErrorPage />} /> */}
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -8,33 +8,45 @@ const Calendar = () => {
       <Navigation />
       <div id="calendar-section">
         <div class="event">
-          <p>Sala Nietzsche</p>
-          <p className="event-sub">5 February 2022</p>
-          <p className="event-sub">Lisbon, Portugal</p>
+          <p>Dominikanerkloster</p>
+          <p className="event-sub">9 September 2023</p>
+          <p className="event-sub">Prezlau, Germany</p>
         </div>
-
         <div class="event">
-          <p class="event-2-p">Jagdzeugmagazin Schloss Grunewald</p>
-          <p className="event-sub">6 March 2022</p>
-          <p className="event-sub">Berlin, Germany</p>
+          <p>Barockschloss Zeilitzheim</p>
+          <p className="event-sub">26 May 2023</p>
+          <p className="event-sub">Kolitzheim, Germany</p>
         </div>
-
         <div class="event">
-          <p>Gemeindehaus Amrum</p>
-          <p className="event-sub">5 May 2022</p>
-          <p className="event-sub">Berlin, Germany</p>
+          <p>MS Artania</p>
+          <p className="event-sub">21 March - 7 April 2023</p>
+          <p className="event-sub">Africa & Spain</p>
         </div>
-
+        <div class="event">
+          <p>MS Artania</p>
+          <p className="event-sub">9 - 29 October 2022</p>
+          <p className="event-sub">Europe</p>
+        </div>
         <div class="event">
           <p>Midsummer Vilnius</p>
           <p className="event-sub">18 July 2022</p>
           <p className="event-sub">Vilnius, Lithuania</p>
         </div>
-
-        {/* <div class="event">
-          <p>MS Artania</p>
-          <p>14 & 22 October 2022</p>
-        </div> */}
+        <div class="event">
+          <p>Gemeindehaus Amrum</p>
+          <p className="event-sub">5 May 2022</p>
+          <p className="event-sub">Berlin, Germany</p>
+        </div>
+        <div class="event">
+          <p class="event-2-p">Jagdzeugmagazin Schloss Grunewald</p>
+          <p className="event-sub">6 March 2022</p>
+          <p className="event-sub">Berlin, Germany</p>
+        </div>
+        <div class="event">
+          <p>Sala Nietzsche</p>
+          <p className="event-sub">5 February 2022</p>
+          <p className="event-sub">Lisbon, Portugal</p>
+        </div>
       </div>
       <Footer />
     </div>

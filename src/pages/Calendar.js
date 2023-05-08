@@ -10,7 +10,7 @@ const Calendar = () => {
         <div class="event">
           <p>Dominikanerkloster</p>
           <p className="event-sub">9 September 2023</p>
-          <p className="event-sub">Prezlau, Germany</p>
+          <p className="event-sub">Prenzlau, Germany</p>
         </div>
         <div class="event">
           <p>Barockschloss Zeilitzheim</p>

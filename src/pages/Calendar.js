@@ -8,6 +8,11 @@ const Calendar = () => {
       <Navigation />
       <div id="calendar-section">
         <div class="event">
+          <p>Sommer Palais Dresden</p>
+          <p className="event-sub">27 July 2024</p>
+          <p className="event-sub">Dresden, Germany</p>
+        </div>
+        <div class="event">
           <p>Dominikanerkloster</p>
           <p className="event-sub">9 September 2023</p>
           <p className="event-sub">Prenzlau, Germany</p>

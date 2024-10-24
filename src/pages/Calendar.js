@@ -7,10 +7,20 @@ const Calendar = () => {
     <div>
       <Navigation />
       <div id="calendar-section">
+      <div class="event">
+          <p>MS Amadea</p>
+          <p className="event-sub">11  - 25 September 2024</p>
+          <p className="event-sub">England, Frankreich, Spanien</p>
+        </div>
         <div class="event">
           <p>Sommer Palais Dresden</p>
           <p className="event-sub">27 July 2024</p>
           <p className="event-sub">Dresden, Germany</p>
+        </div>
+        <div class="event">
+          <p>MS Artania</p>
+          <p className="event-sub">27 Juni - 11 Juli 2024</p>
+          <p className="event-sub">Norway</p>
         </div>
         <div class="event">
           <p>Dominikanerkloster</p>

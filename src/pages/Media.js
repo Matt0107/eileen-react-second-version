@@ -11,7 +11,7 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube.com/embed/tHc_bCTKB4w"
+            src="https://www.youtube-nocookie.com/embed/tHc_bCTKB4w?si=zzgKoh05Uqn44Rag"
             title="Eileen Baum SCHMUCKSTÜCKE TRAILER"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,7 +20,7 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube.com/embed/55kU1yW8sVw"
+            src="https://www.youtube-nocookie.com/embed/55kU1yW8sVw?si=Aw_V9r-gEACtoSZO"
             title="Eileen Baum ,,Melancholy”"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -31,7 +31,7 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube.com/embed/h2jlBaOHae0"
+            src="https://www.youtube-nocookie.com/embed/h2jlBaOHae0?si=ob_0mnF9XK7NXztn"
             title="Eileen Baum Giuliani Concerto op. 30"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -40,7 +40,7 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube.com/embed/cx9xyQSz39g"
+            src="https://www.youtube-nocookie.com/embed/cx9xyQSz39g?si=scafrVmlTm-3KLFS"
             title="Eileen Baum Ponce Sonata III"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

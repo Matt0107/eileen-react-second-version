@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles/index.css";
 import "./fonts/Grotesk/SpaceGrotesk-Regular.ttf";
+import "./i18n";
 //
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

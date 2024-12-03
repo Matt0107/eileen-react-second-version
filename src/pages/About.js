@@ -16,7 +16,7 @@ const About = () => {
       <Navigation />
       <div id="about-section">
         <div className="picture-section">
-          <img src="./assets/face2.jpg" alt="eileen-bio" />
+          <img src="./assets/eileen2.jpg" alt="eileen-bio" />
         </div>
         <div className="biography-section">
           <div className="biographie-section-div">{t("about.bio1")}</div>

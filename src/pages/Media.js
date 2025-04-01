@@ -31,8 +31,8 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube-nocookie.com/embed/h2jlBaOHae0?si=ob_0mnF9XK7NXztn"
-            title="Eileen Baum Giuliani Concerto op. 30"
+            src="https://www.youtube-nocookie.com/embed/Evd_xku8ZGc?si=scUHTVKb9zvPUR2u"
+            title="LIVE CONCERT: Italian Intermezzo | Trailer"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -40,8 +40,8 @@ const Media = () => {
           <iframe
             width="700"
             height="506"
-            src="https://www.youtube-nocookie.com/embed/cx9xyQSz39g?si=scafrVmlTm-3KLFS"
-            title="Eileen Baum Ponce Sonata III"
+            src="https://www.youtube-nocookie.com/embed/h2jlBaOHae0?si=ob_0mnF9XK7NXztn"
+            title="Eileen Baum Giuliani Concerto op. 30"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
